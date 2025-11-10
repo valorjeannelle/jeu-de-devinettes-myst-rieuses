@@ -16,7 +16,7 @@ Une connexion internet est nécessaire pour jouer.
 
 ##  Accès au jeu
 
-👉 [https://devinettesmysterieuses.netlify.app/]
+https://devinettesmysterieuses.netlify.app/
 
 ## Technologies utilisées
 
