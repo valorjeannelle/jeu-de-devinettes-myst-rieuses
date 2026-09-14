@@ -1,0 +1,455 @@
+[hidden] {
+    display: none !important;
+}
+
+:root {
+    --couleur-principale: #6c4ab6;
+    --couleur-principale-foncee: #4b2f82;
+    --couleur-secondaire: #9b7edb;
+
+    --couleur-fond: #f6f3fb;
+    --couleur-carte: #f7f6f6;
+    --couleur-texte: #272235;
+    --couleur-texte-secondaire: #756d83;
+
+    --couleur-bonne: #55a878;
+    --couleur-mauvaise: #d96b6b;
+
+    --ombre-carte: 0 10px 30px rgba(50, 35, 80, 0.12);
+    --rayon: 16px;
+
+    --transition: 0.25s ease;
+}#hero {
+    min-height: 100vh;
+    padding: 40px 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at 50% 35%,
+            var(--couleur-principale-foncee) 0%,
+            #24143d 45%,
+            #100b18 75%,
+            #050308 100%
+        );
+}
+
+#hero h1 {
+    color: #EDE7F7;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.mascotte-hero {
+    display: block;
+
+    width: 100px;
+    height: auto;
+
+    margin: 0 auto 20px;
+
+    animation: flotter 2.5s ease-in-out infinite;
+}
+
+@keyframes flotter {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+#devinette,
+.btn-reponses button,
+#btn-suivant,
+#btn-rejouer,p {
+    font-family: "Cinzel", serif;
+}
+#hero p {
+    color: #EDE7F7;
+    margin: 6px 0;
+}
+
+#hero p span {
+    color: var(--couleur-secondaire);
+    font-weight: bold;
+}
+
+/* Bouton */
+#btn-commencer {
+    margin-top: 30px;
+    padding: 14px 30px;
+
+    border: none;
+    border-radius: var(--rayon);
+
+    background: var(--couleur-principale);
+    color: #EDE7F7;
+
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* effet 3D */
+    box-shadow: 0 6px 0 var(--couleur-principale-foncee);
+
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#btn-commencer:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 0 var(--couleur-principale-foncee);
+}
+
+#btn-commencer:active {
+    transform: translateY(5px);
+    box-shadow: 0 1px 0 var(--couleur-principale-foncee);
+}
+
+#jeu {
+    min-height: 100vh;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+background:
+    radial-gradient(
+        circle at 50% 35%,
+        var(--couleur-principale) 0%,
+        #5a3c96 45%,
+        #352052 75%,
+        #24143d 100%
+    );
+}
+
+/* =========================
+   ZONE DU JEU
+========================= */
+
+#en-tete {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+/* Score */
+
+#score {
+    display: inline-block;
+
+    padding: 8px 16px;
+    margin-bottom: 20px;
+
+    border-radius: 30px;
+
+    background: var(--couleur-carte);
+    color: var(--couleur-principale);
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    box-shadow: var(--ombre-carte);
+}
+
+#score span {
+    font-size: 1.2rem;
+}
+
+
+/* Titre */
+
+#en-tete h2 {
+    margin: 0 0 20px;
+
+    color: var(--couleur-texte);
+
+    font-size: 1.8rem;
+}
+
+
+/* =========================
+   CARTE DEVINETTE
+========================= */
+
+.carte-devinette {
+    padding: 30px 24px;
+    margin-bottom: 25px;
+
+    background: var(--couleur-carte);
+
+    border-radius: var(--rayon);
+
+    box-shadow: var(--ombre-carte);
+}
+
+#devinette {
+    margin: 0;
+
+    color: var(--couleur-texte);
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BOUTONS REPONSES
+========================= */
+.btn-reponses {
+    display: grid;
+    gap: 14px;
+}
+
+.btn-reponses button {
+    width: 100%;
+    padding: 15px 18px;
+
+    border: none;
+    border-radius: var(--rayon);
+
+    background: var(--couleur-carte);
+    color: var(--couleur-texte);
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 0 var(--couleur-secondaire),
+        var(--ombre-carte);
+
+    transition: var(--transition);
+}
+
+.btn-reponses button:hover {
+    transform: translateY(-2px);
+
+    background: #fdfbff;
+
+    box-shadow:
+        0 7px 0 var(--couleur-secondaire),
+        var(--ombre-carte);
+}
+
+.btn-reponses button:active {
+    transform: translateY(4px);
+
+    box-shadow:
+        0 1px 0 var(--couleur-secondaire);
+}
+
+
+/* Réponse correcte */
+
+.btn-reponses button.correcte {
+    background: var(--couleur-bonne);
+    color: white;
+
+    box-shadow: 0 5px 0 #3d815b;
+}
+
+
+/* Réponse incorrecte */
+
+.btn-reponses button.incorrecte {
+    background: var(--couleur-mauvaise);
+    color: white;
+
+    box-shadow: 0 5px 0 #a94f4f;
+}
+
+
+/* =========================
+   FOOTER / SUIVANT
+========================= */
+
+footer {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 25px auto 0;
+
+    text-align: right;
+}
+
+#btn-suivant {
+    padding: 13px 25px;
+
+    border: none;
+    border-radius: var(--rayon);
+
+    background: var(--couleur-secondaire);
+    color: #EDE7F7;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 var(--couleur-principale-foncee);
+
+    transition: var(--transition);
+}
+
+#btn-suivant:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 0 var(--couleur-principale-foncee);
+}
+
+#btn-suivant:active {
+    transform: translateY(4px);
+
+    box-shadow:
+        0 1px 0 var(--couleur-principale-foncee);
+}
+
+
+/* =========================
+   FIN DE PARTIE
+========================= */
+
+#fin-partie {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+
+    margin: auto;
+    padding: 40px 25px;
+
+    text-align: center;
+
+    background: var(--couleur-carte);
+    border-radius: var(--rayon);
+    box-shadow: var(--ombre-carte);
+}
+#fin-partie h2 {
+    margin-top: 0;
+
+    color: var(--couleur-texte);
+
+    font-size: 1.8rem;
+}
+
+#fin-partie p {
+    color: var(--couleur-texte-secondaire);
+}
+
+#score-final {
+    margin: 20px 0;
+
+    color: var(--couleur-principale) !important;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BOUTON REJOUER
+========================= */
+
+#btn-rejouer {
+    padding: 14px 30px;
+
+    border: none;
+    border-radius: var(--rayon);
+
+    background: var(--couleur-secondaire);
+    color: #EDE7F7;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 var(--couleur-principale-foncee);
+
+    transition: var(--transition);
+}
+
+#btn-rejouer:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 0 var(--couleur-principale-foncee);
+}
+
+#btn-rejouer:active {
+    transform: translateY(4px);
+
+    box-shadow:
+        0 1px 0 var(--couleur-principale-foncee);
+}
+
+
+/* =========================
+   VERSION TABLETTE / PC
+========================= */
+
+@media (min-width: 768px) {
+
+    /* HERO */
+    #hero {
+        padding: 60px;
+    }
+
+    #hero h1 {
+        font-size: 3.2rem;
+    }
+
+    .mascotte-hero {
+        width: 120px;
+    }
+
+    #hero p {
+        font-size: 1.1rem;
+    }
+
+
+    /* JEU */
+    #jeu {
+        padding: 50px 30px;
+    }
+
+    #en-tete {
+        max-width: 700px;
+    }
+
+    #en-tete h2 {
+        font-size: 2rem;
+    }
+
+    .carte-devinette {
+        padding: 35px;
+    }
+
+    /* 2 colonnes pour les réponses */
+    .btn-reponses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        max-width: 700px;
+    }
+
+
+    /* FIN DE PARTIE */
+    #fin-partie {
+        max-width: 550px;
+    }
+}

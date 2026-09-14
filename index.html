@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devinettes mysterieuses</title>
+    <link rel="icon" type="image/jpeg" href="images/ico_jeu.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="hero" hidden>
+        <h1>Devinettes mystérieuses</h1>
+        <img class="mascotte-hero" src="images/fantome.svg" alt="mascotte fantome">
+        <p>Bienvenue dans les <span>devinettes mystérieuses</span></p>
+        <p>Sauras-tu déceler le mystère ?</p>
+        <button id="btn-commencer">Commencer</button>
+    </header>
+    <main id="jeu" hidden>
+        <section id="en-tete">
+            <div id="score">
+                <span>0</span>/5
+            </div>
+            <h2>Devine si tu peux</h2>
+            <div class="carte-devinette">
+                <p id="devinette"></p>
+            </div>
+            <div class="btn-reponses">
+            </div>
+        </section>
+        <section id="fin-partie" hidden>
+            <h2>Partie terminée !</h2>
+            <p>Ton score :</p>
+            <p id="score-final"></p>
+            <button id="btn-rejouer">Rejouer</button>
+        </section>
+        <footer>
+            <button id="btn-suivant" hidden>Suivant</button>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

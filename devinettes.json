@@ -1,0 +1,384 @@
+
+[
+  {
+    "question": "Je suis partout mais on ne me voit pas. Qui suis-je ?",
+    "reponse": "air"
+  },
+  {
+    "question": "Je peux ouvrir sans force. Qui suis-je ?",
+    "reponse": "clé"
+  },
+  {
+    "question": "Je tombe du ciel sans faire mal. Qui suis-je ?",
+    "reponse": "pluie"
+  },
+  {
+    "question": "Je suis ton reflet, mais je ne suis pas toi. Qui suis-je ?",
+    "reponse": "miroir"
+  },
+  {
+    "question": "Je suis là quand tu ne parles pas. Qui suis-je ?",
+    "reponse": "silence"
+  },
+  {
+    "question": "Je suis chaud sans feu. Qui suis-je ?",
+    "reponse": "vent"
+  },
+  {
+    "question": "Je suis là quand la lumière s’éteint. Qui suis-je ?",
+    "reponse": "ombre"
+  },
+  {
+    "question": "Je cache les contours du monde. Qui suis-je ?",
+    "reponse": "brume"
+  },
+  {
+    "question": "Je suis toujours devant toi, mais tu ne peux jamais me voir. Qui suis-je ?",
+    "reponse": "Le futur"
+  },
+  {
+    "question": "Je suis léger comme une plume, mais même le plus fort des hommes ne peut me tenir plus de 5 minutes. Qui suis-je ?",
+    "reponse": "Le souffle"
+  },
+  {
+    "question": "Qu'est-ce qui est plein de trous mais peut encore contenir de l'eau ?",
+    "reponse": "Une éponge"
+  },
+  {
+    "question": "Je peux être cassé sans jamais être touché. Qui suis-je ?",
+    "reponse": "Une promesse"
+  },
+  {
+    "question": "Je suis souvent servi mais je ne mange jamais. Qui suis-je ?",
+    "reponse": "Un plat"
+  },
+  {
+    "question": "Plus j'en prends, plus je laisse derrière moi. Qui suis-je ?",
+    "reponse": "Des pas"
+  },
+  {
+    "question": "Qu'est-ce qui est plus grand que la Terre et qui ne pèse rien ?",
+    "reponse": "Le ciel"
+  },
+  {
+    "question": "Je suis parfois jaune et je brille dans le ciel. Qui suis-je ?",
+    "reponse": "Le soleil"
+  },
+  {
+    "question": "Je suis toujours devant vous mais je ne peux pas être vu. Qui suis-je ?",
+    "reponse": "Le temps"
+  },
+  {
+    "question": "Qu'est-ce qui a des dents mais ne peut pas mordre ?",
+    "reponse": "Un peigne"
+  },
+  {
+    "question": "Je suis invisible, mais vous pouvez me sentir. Qui suis-je ?",
+    "reponse": "Le vent"
+  },
+  {
+    "question": "Je suis souvent mis dans une boîte, mais je ne suis jamais un objet. Qui suis-je ?",
+    "reponse": "Un secret"
+  },
+  {
+    "question": "Qu'est-ce qui peut être cassé sans qu'on le touche ?",
+    "reponse": "Le silence"
+  },
+  {
+    "question": "Je suis une clé qui ne peut ouvrir aucune porte. Qui suis-je ?",
+    "reponse": "Une clé USB"
+  },
+  {
+    "question": "Qu'est-ce qui est toujours en avance, mais n'arrête jamais ?",
+    "reponse": "horloge"
+  },
+  {
+    "question": "Je n'ai ni bouche, ni nez, mais je parle quand même. Qui suis-je ?",
+    "reponse": "Un écho"
+  },
+  {
+    "question": "Qu'est-ce qui est souvent vu mais rarement entendu ?",
+    "reponse": "La lune"
+  },
+  {
+    "question": "Plus il y en a, moins vous en voyez. Qu'est-ce ?",
+    "reponse": "L'obscurité"
+  },
+  {
+    "question": "Qu'est-ce qui monte mais ne descend jamais ?",
+    "reponse": "L'âge"
+  },
+  {
+    "question": "Je suis pris avant vous, mais vous ne pouvez jamais me prendre après. Qui suis-je ?",
+    "reponse": "Une photo"
+  },
+  {
+    "question": "Je suis souvent long mais je n'ai pas de fin. Qui suis-je ?",
+    "reponse": "Une histoire"
+  },
+  {
+    "question": "Je suis toujours dans la poche, mais je ne suis jamais vu. Qui suis-je ?",
+    "reponse": "argent"
+  },
+  {
+    "question": "Je suis grand quand je suis jeune, et petit quand je suis vieux. Qui suis-je ?",
+    "reponse": "Une bougie"
+  },
+  {
+    "question": "Je suis tout petit et très souvent présent dans la cuisine, qui suis-je ?",
+    "reponse": "Le sel"
+  },
+  {
+    "question": "Je suis blanc, je tombe du ciel et je ne fonds pas dans l'eau. Qui suis-je ?",
+    "reponse": "La neige"
+  },
+  {
+    "question": "Je commence la nuit et je termine le matin. Qui suis-je ?",
+    "reponse": "La lettre N"
+  },
+  {
+    "question": "J'ai une longue trompe et de grandes oreilles. Qui suis-je ?",
+    "reponse": "éléphant"
+  },
+  {
+    "question": "J'ai un dos et quatre pieds, mais je ne marche pas. Qui suis-je ?",
+    "reponse": "La chaise"
+  },
+  {
+    "question": "J'ai des clés mais n'ouvre aucune porte. Qui suis-je ?",
+    "reponse": "La partition de musique"
+  },
+  {
+    "question": "Je peux être cassé, mais sans être touché. Qui suis-je ?",
+    "reponse": "Le secret"
+  },
+  {
+    "question": "Qui a quatre pattes le matin, deux à midi et trois le soir ?",
+    "reponse": "L'homme"
+  },
+  {
+    "question": "Je peux être vert, mais je ne suis pas une plante ; je suis dur, mais je ne suis pas de la pierre. Qui suis-je ?",
+    "reponse": "Le verre"
+  },
+  {
+    "question": "Qu'est-ce qui devient plus mouillé au fur et à mesure qu'il sèche ?",
+    "reponse": "Une serviette"
+  },
+  {
+    "question": "Quel est le comble pour un électricien ?",
+    "reponse": "D'avoir des ampoules aux pieds"
+  },
+  {
+    "question": "J'ai des villes, mais pas de maisons ; des montagnes, mais pas d'arbres ; et de l'eau, mais pas de poissons. Qui suis-je ?",
+    "reponse": "Une carte"
+  },
+  {
+    "question": "J'ai deux aiguilles, mais ne couds jamais. Qui suis-je ?",
+    "reponse": "Une horloge"
+  },
+  {
+    "question": "Qu'est-ce qui se casse dès qu'on le nomme ?",
+    "reponse": "Le silence"
+  },
+  {
+    "question": "J'ai un œil, mais je ne vois pas. Qui suis-je ?",
+    "reponse": "Une aiguille"
+  },
+  {
+    "question": "J'ai une tête et une queue, mais pas de corps. Qui suis-je ?",
+    "reponse": "Une pièce de monnaie"
+  },
+  {
+    "question": "Quel mot de 5 lettres devient plus court quand on lui ajoute deux lettres ?",
+    "reponse": "Court"
+  },
+  {
+    "question": "J'ai des racines que personne ne voit, je suis plus haut que les arbres. Qui suis-je ?",
+    "reponse": "Une montagne"
+  },
+  {
+    "question": "J'ai un lit, mais ne dors jamais. Qui suis-je ?",
+    "reponse": "Une rivière"
+  },
+  {
+    "question": "On me dévore sans jamais me manger. Qui suis-je ?",
+    "reponse": "Un livre"
+  },
+  {
+    "question": "On m'ouvre, on me referme, mais je n'entre jamais. Qui suis-je ?",
+    "reponse": "Le frigo"
+  },
+  {
+    "question": "J'ai deux bras mais pas de mains. Qui suis-je ?",
+    "reponse": "Un manteau"
+  },
+  {
+    "question": "Je suis entouré d'anneaux, mais je n'ai pas de doigt. Qui suis-je ?",
+    "reponse": "Saturne"
+  },
+  {
+    "question": "Si on m'appelle, je ne peux plus parler. Qui suis-je ?",
+    "reponse": "L'écho"
+  },
+  {
+    "question": "J'appartiens à toi, mais les autres m'utilisent plus que toi. Qui suis-je ?",
+    "reponse": "Ton prénom"
+  },
+  {
+    "question": "Je deviens plus gros quand on me vide. Qui suis-je ?",
+    "reponse": "Un trou"
+  },
+  {
+    "question": "Qu'est-ce qui court sans jamais avoir de jambes ?",
+    "reponse": "L'eau"
+  },
+  {
+    "question": "Je suis fait pour être mangé, mais on ne me mange jamais. Qui suis-je ?",
+    "reponse": "L'assiette"
+  },
+  {
+    "question": "J'ai un cou, mais je n'ai pas de tête. Qui suis-je ?",
+    "reponse": "La bouteille"
+  },
+  {
+    "question": "Que faut-il pour allumer une bougie ?",
+    "reponse": "Le feu"
+  },
+  {
+    "question": "Quand on me jette, je monte ; quand on me lâche, je descends. Qui suis-je ?",
+    "reponse": "Une balle rebondissante"
+  },
+  {
+    "question": "Je m'assieds souvent mais je n'ai jamais de siège. Qui suis-je ?",
+    "reponse": "Les fesses"
+  },
+  {
+    "question": "On me trouve dans un four, mais je ne suis pas un plat. Qui suis-je ?",
+    "reponse": "La lettre F"
+  },
+  {
+    "question": "Plus c'est chaud, plus je suis frais. Qui suis-je ?",
+    "reponse": "Le pain"
+  },
+  {
+    "question": "J'ai des clés mais pas de serrures, j'ai un espace mais pas de pièce. Qui suis-je ?",
+    "reponse": "Le clavier"
+  },
+  {
+    "question": "Quel animal est le plus vieux ?",
+    "reponse": "Le zèbre"
+  },
+  {
+    "question": "Je suis là quand on ferme les yeux. Qui suis-je ?",
+    "reponse": "Le sommeil"
+  },
+  {
+    "question": "Si tu me regardes, tu vois ce que tu as fait. Qui suis-je ?",
+    "reponse": "Le reflet"
+  },
+  {
+    "question": "Je peux voyager partout dans le monde en restant dans mon coin. Qui suis-je ?",
+    "reponse": "Le timbre"
+  },
+  {
+    "question": "Qu'est-ce qui est noir quand on l'achète, rouge quand on l'utilise et gris quand on le jette ?",
+    "reponse": "Le charbon de bois"
+  },
+  {
+    "question": "J'ai des piquants mais je ne suis pas un hérisson, je suis souvent rouge ou blanc. Qui suis-je ?",
+    "reponse": "La rose"
+  },
+  {
+    "question": "Je me remplis le jour et me vide la nuit. Qui suis-je ?",
+    "reponse": "La lune"
+  },
+  {
+    "question": "J'ai un chapeau, mais pas de tête. Qui suis-je ?",
+    "reponse": "Le champignon"
+  },
+  {
+    "question": "Que fait un chat quand il a mal ?",
+    "reponse": "MIAOU"
+  },
+  {
+    "question": "Je te suis partout, mais je ne suis personne. Qui suis-je ?",
+    "reponse": "Ton ombre"
+  },
+  {
+    "question": "Je n'ai pas de poumons, mais j'ai besoin d'air. Qui suis-je ?",
+    "reponse": "Le pneu"
+  },
+  {
+    "question": "Je coupe la tête et la queue, mais j'utilise un couteau pour cuisiner. Qui suis-je ?",
+    "reponse": "Le cuisinier"
+  },
+  {
+    "question": "Que dit-on à un chien sans pattes ?",
+    "reponse": "\"Tu es où ?\""
+  },
+  {
+    "question": "Je suis souvent porté, mais je n'ai pas d'épaules. Qui suis-je ?",
+    "reponse": "La cravate"
+  },
+  {
+    "question": "Qu'est-ce qui peut briser le verre sans faire de bruit ?",
+    "reponse": "Le vent"
+  },
+  {
+    "question": "Je deviens plus petit à chaque fois que je prends un bain. Qui suis-je ?",
+    "reponse": "Le savon"
+  },
+  {
+    "question": "J'ai une langue, mais je ne peux pas parler. Qui suis-je ?",
+    "reponse": "La chaussure"
+  },
+  {
+    "question": "Qu'est-ce qui se passe une fois par minute, deux fois par moment et jamais en mille ans ?",
+    "reponse": "La lettre M"
+  },
+  {
+    "question": "Plus il y a de monde dedans, plus il est léger. Qui suis-je ?",
+    "reponse": "L'ascenseur"
+  },
+  {
+    "question": "J'ai des notes, mais je ne fais pas de musique. Qui suis-je ?",
+    "reponse": "Le cahier"
+  },
+  {
+    "question": "Qu'est-ce qu'on jette quand on veut s'en servir et qu'on garde quand on ne veut plus l'utiliser ?",
+    "reponse": "L'ancre"
+  },
+  {
+    "question": "Je peux retenir le lait, mais ne suis pas un seau. Qui suis-je ?",
+    "reponse": "Une passoire"
+  },
+  {
+    "question": "Je ne peux pas respirer, mais j'ai un nez ; je n'ai pas de peau, mais j'ai des rides. Qui suis-je ?",
+    "reponse": "Le piment"
+  },
+  {
+    "question": "Je ne suis pas vivant, mais je peux mourir. Qui suis-je ?",
+    "reponse": "Le feu"
+  },
+  {
+    "question": "Quel est l'animal le plus silencieux ?",
+    "reponse": "La mouette"
+  },
+  {
+    "question": "J'ai des lèvres, mais je ne peux pas embrasser. Qui suis-je ?",
+    "reponse": "La tasse"
+  },
+  {
+    "question": "J'ai des touches, mais je ne joue pas de piano. Qui suis-je ?",
+    "reponse": "interrupteur"
+  },
+  {
+    "question": "J'ai des larmes, mais je ne pleure jamais. Qui suis-je ?",
+    "reponse": "oignon"
+  },
+  {
+    "question": "Que doit-on casser pour pouvoir l'utiliser ?",
+    "reponse": "Un œuf"
+  }
+]
+
