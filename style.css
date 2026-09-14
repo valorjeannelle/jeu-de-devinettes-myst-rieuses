@@ -25,6 +25,9 @@
   margin: 0;
   padding: 0;
 }
+main{
+    margin:0;
+    padding:0;}
 #hero {
     min-height: 100vh;
     padding: 40px 24px;
