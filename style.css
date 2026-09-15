@@ -195,7 +195,7 @@ background:
     padding: 30px 24px;
     margin-bottom: 25px;
 
-    background: var(--couleur-carte);
+    background: transparent ;
 
     border-radius: var(--rayon);
 
@@ -205,7 +205,7 @@ background:
 #devinette {
     margin: 0;
 
-    color: var(--couleur-texte);
+    color: white;
 
     font-size: 1.1rem;
     line-height: 1.6;
